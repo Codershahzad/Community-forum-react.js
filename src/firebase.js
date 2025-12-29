@@ -1,5 +1,5 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
@@ -10,11 +10,10 @@ const firebaseConfig = {
   storageBucket: "aykays-community-forum.appspot.com",
   messagingSenderId: "313174667848",
   appId: "1:313174667848:web:e91c10afed27e353c39e7d",
-  measurementId: "G-XMYS039VDY"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getDatabase(app);
 
-export { app, db };
+export const auth = getAuth(app);
+export const googleProvider = new GoogleAuthProvider();
+export const db = getDatabase(app);
