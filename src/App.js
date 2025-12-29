@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { getDatabase, ref, set } from "firebase/database";
+import { app } from "./firebase"; // lowercase app
+import "./App.css";
+
+const db = getDatabase(app);
 
 function App() {
+  const shah = () => {
+    set(ref(db, "users/shah"), {
+      id: 1,
+      name: "shah",
+      age: 28,
+    })
+      .then(() => {
+        alert("Data sent successfully!");
+      })
+      .catch((error) => {
+        console.error("Error sending data: ", error);
+      });
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Firebase React App</h1>
+      <button onClick={shah}>Send data</button>
     </div>
   );
 }
