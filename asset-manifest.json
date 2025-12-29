@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Community-forum-react.js/static/css/main.c447ad27.css",
-    "main.js": "/Community-forum-react.js/static/js/main.64fab373.js",
+    "main.css": "/Community-forum-react.js/static/css/main.05f67365.css",
+    "main.js": "/Community-forum-react.js/static/js/main.02993115.js",
     "static/js/453.bca60742.chunk.js": "/Community-forum-react.js/static/js/453.bca60742.chunk.js",
     "index.html": "/Community-forum-react.js/index.html",
-    "main.c447ad27.css.map": "/Community-forum-react.js/static/css/main.c447ad27.css.map",
-    "main.64fab373.js.map": "/Community-forum-react.js/static/js/main.64fab373.js.map",
+    "main.05f67365.css.map": "/Community-forum-react.js/static/css/main.05f67365.css.map",
+    "main.02993115.js.map": "/Community-forum-react.js/static/js/main.02993115.js.map",
     "453.bca60742.chunk.js.map": "/Community-forum-react.js/static/js/453.bca60742.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c447ad27.css",
-    "static/js/main.64fab373.js"
+    "static/css/main.05f67365.css",
+    "static/js/main.02993115.js"
   ]
 }
