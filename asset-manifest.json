@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Community-forum-react.js/static/css/main.b59481b4.css",
-    "main.js": "/Community-forum-react.js/static/js/main.380e3cc9.js",
+    "main.js": "/Community-forum-react.js/static/js/main.4dc360ac.js",
     "index.html": "/Community-forum-react.js/index.html",
     "main.b59481b4.css.map": "/Community-forum-react.js/static/css/main.b59481b4.css.map",
-    "main.380e3cc9.js.map": "/Community-forum-react.js/static/js/main.380e3cc9.js.map"
+    "main.4dc360ac.js.map": "/Community-forum-react.js/static/js/main.4dc360ac.js.map"
   },
   "entrypoints": [
     "static/css/main.b59481b4.css",
-    "static/js/main.380e3cc9.js"
+    "static/js/main.4dc360ac.js"
   ]
 }
